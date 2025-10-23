@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 }
 
-/* ---------- ШАПКА ---------- */
+/*ШАПКА*/
 header {
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ nav {
   color: #ff4081;
 }
 
-/* ---------- ОСНОВНОЙ КОНТЕНТ ---------- */
+/*ОСНОВНОЙ КОНТЕНТ*/
 main {
   flex: 1;
   padding: 2rem;
@@ -71,7 +71,7 @@ main {
   display: flex;
 }
 
-/* ---------- О НАС ---------- */
+/*О НАС*/
 .about-section {
   position: relative;
   overflow: hidden;
@@ -166,7 +166,7 @@ blockquote {
   color: #ddd;
 }
 
-/* ---------- НОВОСТИ ---------- */
+/*НОВОСТИ*/
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -185,7 +185,7 @@ blockquote {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* ---------- ГАЛЕРЕЯ ---------- */
+/*ГАЛЕРЕЯ*/
 .gallery img {
   width: 100%;
   height: 200px;
@@ -198,7 +198,7 @@ blockquote {
   transform: scale(1.05);
 }
 
-/* ---------- КОНТАКТЫ ---------- */
+/*КОНТАКТЫ*/
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -227,7 +227,7 @@ blockquote {
   margin: 0.3rem 0;
 }
 
-/* ---------- ПОДВАЛ ---------- */
+/*ПОДВАЛ*/
 footer {
   background: #181818;
   text-align: center;
@@ -236,7 +236,7 @@ footer {
   border-top: 1px solid #333;
 }
 
-/* ---------- АНИМАЦИИ ---------- */
+/*АНИМАЦИИ*/
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -247,7 +247,7 @@ footer {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ---------- АДАПТИВНОСТЬ ---------- */
+/*АДАПТИВНОСТЬ*/
 @media (max-width: 768px) {
   header {
     flex-direction: column;
